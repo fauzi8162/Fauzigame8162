@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/end_layout">
+
+    <TextView
+        android:id="@+id/end_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Congratulations!"
+        android:textSize="@dimen/name_text_size"
+        android:layout_weight="1" 
+        android:layout_margin="15dp"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+    />
+    
+    <TextView
+        android:id="@+id/end_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/name_text_size"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_weight="1" 
+        android:layout_margin="10dp"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+    />
+
+    <Button
+        android:id="@+id/exit_to_menu_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Exit" 
+        android:textSize="@dimen/button_text_size"
+        android:layout_weight="1"
+        android:layout_margin="15dp"    />
+
+</LinearLayout>
